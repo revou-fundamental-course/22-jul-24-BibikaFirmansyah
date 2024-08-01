@@ -1,3 +1,7 @@
+body{
+    background-color: #E2E2B6;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -27,6 +31,7 @@ nav{
 
 .main-title{
     text-align: center;
+    color: rgb(0, 0, 0);
 }
 
 .main-content{
@@ -107,3 +112,21 @@ input[type=submit]:hover {
     padding-top: 70px;
     padding-right: 130px;
 }
+
+.navbar {
+    overflow: hidden;
+    background-color: #134B70;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
