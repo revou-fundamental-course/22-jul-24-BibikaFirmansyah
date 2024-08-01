@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css\style.css">
     <title>Yaoshi Travel Agent</title>
 </head>
@@ -34,21 +34,63 @@
         </article>
         <section class="main-content">
             <article class="main-content-item">
-                <div class="main-content-banner">
-                </div>
+                <div class="slideshow-container">
 
-                <div class="main-item">
-                    <div class="item-icon"></div>
-                    <div>
-                        <h3>Name</h3>
-                        <p>Name</p>
+                    <div class="mySlides fade">
+                      <img src="assets\japan.jpg" style="width:500px">
                     </div>
-                </div>
+                    
+                    <div class="mySlides fade">
+                      <img src="assets\korea.jpg" style="width:500px">
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <img src="assets\australia.jpg" style="width:500px">
+                    </div>
+
+                    <div class="mySlides fade">
+                        <img src="assets\switzerland.jpg" style="width:500px">
+                      </div>
+
+                      <div class="mySlides fade">
+                        <img src="assets\russia.jpg" style="width:500px">
+                      </div>
+
+                      <div class="mySlides fade">
+                        <img src="assets\usa.jpg" style="width:500px">
+                      </div>
+                    
+                    </div>
+                    <br>
+
+                    <div class="main-dot">
+                      <span class="dot"></span> 
+                      <span class="dot"></span> 
+                      <span class="dot"></span>
+                      <span class="dot"></span> 
+                      <span class="dot"></span> 
+                      <span class="dot"></span>  
+                    </div>
+
             </article>
-            <form class="main-content-item">
-                <input type="text">
-                <button type="submit">Submit</button>
-            </form>
+                <div class="form">
+                    <form action="/action_page.php">
+                      <label for="fname">First Name</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  
+                      <label for="lname">Last Name</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  
+                      <label for="country">Country</label>
+                      <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                      </select>
+                    
+                      <input type="submit" value="Submit">
+                    </form>
+                  </div>
         </section>
     </main>
 
