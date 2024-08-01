@@ -1,15 +1,18 @@
-nav {
-    border: 1px solid;
+nav{
     display: flex;
     justify-content: space-between;
     padding: 12px;
+    background-color: #134B70
 
-    align-items: center;
 }
 
 .logo-icon{
-    border: 1px solid;
     margin: 8px;
+    display: flex;
+}
+
+.logo-font{
+    color: white;
 }
 
 .nav-container {
@@ -17,8 +20,8 @@ nav {
 }
 
 .nav-item{
-    border: 1px solid;
     padding: 8px;
+    color: white;
 }
 
 .main-title{
